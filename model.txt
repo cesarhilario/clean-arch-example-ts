@@ -1,0 +1,19 @@
+ENTITY
+
+ParkingLot
+
+- code
+- capacity
+- openHour
+- closeHour
+
+ParketCar
+
+- code
+- plate
+- date
+
+USE CASE
+
+EnterParkingLot
+LeaveParkingLot
